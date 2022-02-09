@@ -15,14 +15,15 @@ And tested with:
 - The web accessibility evaluation tool (WAVE)
 - The Markup Validation Service of W3C
 
-## Screenshot
-
-![](images/desktop-design-screenshot.png)
-
 
 ## Live site
 
 - Live Site URL: [GitHub Page](https://ax-cd.github.io/product-landing-page-fcc-project/)
+
+
+## Screenshot
+
+![](images/desktop-design-screenshot.png)
 
 
 ## Links
