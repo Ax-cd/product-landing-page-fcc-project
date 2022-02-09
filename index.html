@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Landing Page | FCC Project</title>
+</head>
+<body>
+    <header id="header">
+        <figure class="logo">
+            <img id="header-img" src="images/hourglass-logo.png" alt="Infinite Hourglasses logo">
+        </figure>
+
+        <nav id="nav-bar" aria-label="main navigation">
+            <ul id="nav-menu">
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#demo">Demo</a></li>
+                <li><a class="nav-link" href="#products">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1 id="title">Infinite Hourglasses</h1>
+            <h2 id="subtitle">Handcrafted, magical artefacts</h2>
+            <form id="form" action="https://www.freecodecamp.org/email-submit">
+                <label for="email">Get your own fragment of Time</label><br>
+                <input id="email" type="email" name="email" placeholder="Enter your email adress" required><br>
+                <input type="submit" id="submit" class="btn" value="I want one">
+            </form>    
+        </section>
+
+        <section id="features">
+            <div class="feature">
+                <div class="icon"><img src="images/icons/stars-icon.svg" alt=""></div>
+                <h2>Exclusive Materials</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum rem dolor porro repellat eum.</p>
+            </div>
+
+            <div class="feature">
+                <div class="icon"><img src="images/icons/shipping-icon.svg" alt=""></div>
+                <h2>International Shipping</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="feature">
+                <div class="icon"><img src="images/icons/verified-icon.svg" alt=""></div>
+                <h2>Quality Assurance</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, alias! Assumenda facilis debitis eligendi iste rem vel. Lorem ipsum dolor sit amet.</p>
+            </div>
+        </section>
+
+        <section id="demo">
+			<h2>How to use an hourglass?</h2>
+            <video id="video" src="video/hourglass-pexels-ivan-khmelyuk.mp4" controls poster="video/hourglass-video.png" width="1920" height="1080" aria-describedby="video-transcript">
+                <track  id="video-transcript" src="video/video-description_en.vtt" label="English" srclang="en" kind="descriptions" default>
+            </video>
+        </section>
+
+        <section id="products">
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img class="product-img" src="images/products/dark-sand-hourglass-pexels-yahya-hasan.jpg" alt="Hourglass with black volcano sand.">
+                    </div>
+                    <div class="content">
+                        <h3 class="product-name">Volcano sand</h3>
+                        <p class="product-price">$250</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+                        <button class="select">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img class="product-img" src="images/products/gray-sand-hourglass-pexels-jd-'s.jpg" alt="Hourglass with grey moon dust.">
+                    </div>
+                    <div class="content">
+                        <h3 class="product-name">Moon dust</h3>
+                        <p class="product-price">$320</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button class="select">Select</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img class="product-img" src="images/products/pink-sand-hourglass-pexels-ivan-samkov.jpg" alt="Hourglass with pink crush pearls.">
+                    </div>
+                    <div class="content">
+                        <h3 class="product-name">Crushed pearls</h3>
+                        <p class="product-price">$480</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+                        <button class="select">Select</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <nav id="footer-nav-bar" aria-label="footer navigation">
+            <ul id="footer-menu">
+                <li><a class="footer-link" href="#title">Privacy</a></li>
+                <li><a class="footer-link" href="#title">Terms</a></li>
+                <li><a class="footer-link" href="#title">Contact</a></li>
+            </ul>
+        </nav>
+        <p>Copyright 2022, Infinite Hourglasses</p>
+    </footer>
+    
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
